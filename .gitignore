@@ -1,0 +1,7 @@
+# build products and runs
+code/alns/alns_cetsp
+code/block-rules/bcd_compare
+code/block-rules/radii-x*.csv
+run-*/
+*.o
+*.mod

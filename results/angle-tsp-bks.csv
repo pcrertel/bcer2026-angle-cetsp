@@ -1,0 +1,401 @@
+instance,m,bks,bks_type,bks_source,lower_bound,published_bks
+angletsp-n005-01,5,6.2831900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",6.2831900000,6283.19
+angletsp-n005-02,5,6.2831900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",6.2831900000,6283.19
+angletsp-n005-03,5,6.2831900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",6.2831900000,6283.19
+angletsp-n005-04,5,7.4615100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",7.4615100000,7461.51
+angletsp-n005-05,5,7.2015600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",7.2015600000,7201.56
+angletsp-n005-06,5,7.7919000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",7.7919000000,7791.9
+angletsp-n005-07,5,8.0759300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",8.0759300000,8075.93
+angletsp-n005-08,5,7.7880900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",7.7880900000,7788.09
+angletsp-n005-09,5,6.2831900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",6.2831900000,6283.19
+angletsp-n005-10,5,7.0660600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",7.0660600000,7066.06
+angletsp-n010-01,10,10.1346600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",10.1346600000,10134.66
+angletsp-n010-02,10,11.5998700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",11.5998700000,11599.87
+angletsp-n010-03,10,10.8015600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",10.8015600000,10801.56
+angletsp-n010-04,10,11.0369700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",10.8813300000,11036.97
+angletsp-n010-05,10,11.6356600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",11.4657400000,11635.66
+angletsp-n010-06,10,11.6643500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",11.6643500000,11664.35
+angletsp-n010-07,10,11.7283100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",11.0782600000,11728.31
+angletsp-n010-08,10,11.1026700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",11.1026700000,11102.67
+angletsp-n010-09,10,9.8479300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",9.8479300000,9847.93
+angletsp-n010-10,10,12.1529700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",11.8855500000,12152.97
+angletsp-n015-01,15,14.9874800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",14.3986800000,14987.48
+angletsp-n015-02,15,14.6750300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",14.2328800000,14675.03
+angletsp-n015-03,15,13.9015000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",13.4322800000,13901.5
+angletsp-n015-04,15,13.8177800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",13.7056300000,13817.78
+angletsp-n015-05,15,14.6155300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",14.3375900000,14615.53
+angletsp-n015-06,15,13.6587700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",13.3312400000,13658.77
+angletsp-n015-07,15,13.3502600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",13.0470900000,13350.26
+angletsp-n015-08,15,12.5431700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",11.8448100000,12543.17
+angletsp-n015-09,15,12.5663700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",11.8981900000,12566.37
+angletsp-n015-10,15,12.9744000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",12.9744000000,12974.4
+angletsp-n020-01,20,15.0706000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",14.6273100000,15070.6
+angletsp-n020-02,20,16.2926500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",14.5472000000,16292.65
+angletsp-n020-03,20,15.2898800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",14.5215600000,15289.88
+angletsp-n020-04,20,15.8335700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",14.7221900000,15833.57
+angletsp-n020-05,20,16.1518800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",14.8916200000,16151.88
+angletsp-n020-06,20,16.8996900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",16.0018000000,16899.69
+angletsp-n020-07,20,14.3382300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",14.2721900000,14338.23
+angletsp-n020-08,20,18.0042300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",16.0869700000,18004.23
+angletsp-n020-09,20,16.5911200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",15.4582300000,16591.12
+angletsp-n020-10,20,15.9799800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",15.3305900000,15979.98
+angletsp-n025-01,25,18.5096100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",16.2512000000,18509.61
+angletsp-n025-02,25,17.9461000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",16.5183400000,17946.1
+angletsp-n025-03,25,14.4929100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",14.4530500000,14492.91
+angletsp-n025-04,25,17.5659800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",15.4131700000,17565.98
+angletsp-n025-05,25,17.3089600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",16.3341100000,17308.96
+angletsp-n025-06,25,16.5746600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",15.7835100000,16574.66
+angletsp-n025-07,25,18.4318900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",16.3242500000,18431.89
+angletsp-n025-08,25,18.5193700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",16.3463500000,18519.37
+angletsp-n025-09,25,19.4425200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",17.5835500000,19442.52
+angletsp-n025-10,25,18.9436200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",16.9205300000,18943.62
+angletsp-n030-01,30,20.7110500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",19.0477000000,20711.05
+angletsp-n030-02,30,19.4923700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",18.1717100000,19492.37
+angletsp-n030-03,30,19.3789300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",17.9852500000,19378.93
+angletsp-n030-04,30,19.1911500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",16.5320200000,19191.15
+angletsp-n030-05,30,20.2955500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",18.5832900000,20295.55
+angletsp-n030-06,30,20.2139900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",17.7268500000,20213.99
+angletsp-n030-07,30,18.6302300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",17.5685600000,18630.23
+angletsp-n030-08,30,19.9976400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",18.2187600000,19997.64
+angletsp-n030-09,30,18.4182100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",17.1549200000,18418.21
+angletsp-n030-10,30,20.6538700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",19.3803400000,20653.87
+angletsp-n035-01,35,21.4994000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",20.1019400000,21499.4
+angletsp-n035-02,35,20.7311200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",18.9513700000,20731.12
+angletsp-n035-03,35,21.0775500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",18.9185500000,21077.55
+angletsp-n035-04,35,23.0083000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",20.5714700000,23008.3
+angletsp-n035-05,35,20.5012900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",19.0215100000,20501.29
+angletsp-n035-06,35,21.2244200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",19.7570300000,21224.42
+angletsp-n035-07,35,20.8659300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",18.7602700000,20865.93
+angletsp-n035-08,35,21.6787000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",19.7769800000,21678.7
+angletsp-n035-09,35,21.7007100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",20.0667000000,21700.71
+angletsp-n035-10,35,22.0121200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",19.6252200000,22012.12
+angletsp-n040-01,40,22.2482200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",20.1763700000,22248.22
+angletsp-n040-02,40,22.2016200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",20.6095200000,22201.62
+angletsp-n040-03,40,24.0118300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",21.7168900000,24011.83
+angletsp-n040-04,40,23.5437000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",22.3245100000,23543.7
+angletsp-n040-05,40,24.1673400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",22.0872100000,24167.34
+angletsp-n040-06,40,23.9847800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",20.8455900000,23984.78
+angletsp-n040-07,40,22.9042400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",20.2593600000,22904.24
+angletsp-n040-08,40,23.7150300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",21.0611100000,23715.03
+angletsp-n040-09,40,22.8592100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",20.9252700000,22859.21
+angletsp-n040-10,40,23.1345800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",20.9263900000,23134.58
+angletsp-n045-01,45,25.0665200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",21.9323500000,25066.52
+angletsp-n045-02,45,26.3540500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",23.1582500000,26354.05
+angletsp-n045-03,45,25.4838300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",22.7977200000,25483.83
+angletsp-n045-04,45,24.5117600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",22.0976000000,24511.76
+angletsp-n045-05,45,24.6491100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",22.4590800000,24649.11
+angletsp-n045-06,45,24.9297100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",22.9075300000,24929.71
+angletsp-n045-07,45,24.2635600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",21.9429700000,24263.56
+angletsp-n045-08,45,24.9993500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",21.9589900000,24999.35
+angletsp-n045-09,45,24.2769700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",22.1189000000,24276.97
+angletsp-n045-10,45,26.2516200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",24.1127300000,26251.62
+angletsp-n050-01,50,27.1682600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",24.7757900000,27168.26
+angletsp-n050-02,50,26.1234500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",23.4672800000,26123.45
+angletsp-n050-03,50,27.9507800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",24.9925400000,27950.78
+angletsp-n050-04,50,25.2982800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",23.2284400000,25298.28
+angletsp-n050-05,50,24.8781800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",22.5089700000,24878.18
+angletsp-n050-06,50,26.1817400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",24.1749200000,26181.74
+angletsp-n050-07,50,28.5628600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",25.8994300000,28562.86
+angletsp-n050-08,50,26.9676600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",24.4667100000,26967.66
+angletsp-n050-09,50,27.2160600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",24.2405400000,27216.06
+angletsp-n050-10,50,26.2591800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",23.6736100000,26259.18
+angletsp-n055-01,55,26.8595900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",24.7108300000,26859.59
+angletsp-n055-02,55,27.4973000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",24.9415700000,27497.3
+angletsp-n055-03,55,29.2298500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",26.1074500000,29229.85
+angletsp-n055-04,55,28.9032700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",25.2604700000,28903.27
+angletsp-n055-05,55,29.0478500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",26.2457600000,29047.85
+angletsp-n055-06,55,28.6851700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",26.3718500000,28685.17
+angletsp-n055-07,55,28.2855400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",25.7152200000,28285.54
+angletsp-n055-08,55,27.8429700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",25.3546400000,27842.97
+angletsp-n055-09,55,28.3411600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",25.8321000000,28341.16
+angletsp-n055-10,55,28.3039000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",26.0299500000,28303.9
+angletsp-n060-01,60,30.0155700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",26.0360200000,30015.57
+angletsp-n060-02,60,28.6846400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",25.8557600000,28684.64
+angletsp-n060-03,60,29.7026900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",27.5138400000,29702.69
+angletsp-n060-04,60,29.9865700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",27.7989700000,29986.57
+angletsp-n060-05,60,31.0209400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",27.8422500000,31020.94
+angletsp-n060-06,60,30.8155900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",27.3938100000,30815.59
+angletsp-n060-07,60,31.0147200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",28.4617100000,31014.72
+angletsp-n060-08,60,29.6128600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",26.8835700000,29612.86
+angletsp-n060-09,60,30.4962200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",26.7505200000,30496.22
+angletsp-n060-10,60,29.2234600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",26.4340200000,29223.46
+angletsp-n065-01,65,29.9664900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",27.9164100000,29966.49
+angletsp-n065-02,65,30.8510700000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",28.1285900000,30851.07
+angletsp-n065-03,65,29.3270100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",27.2814900000,29327.01
+angletsp-n065-04,65,30.1188000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",28.0326400000,30118.8
+angletsp-n065-05,65,32.0656900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",28.9020000000,32065.69
+angletsp-n065-06,65,29.9664900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",27.9164100000,29966.49
+angletsp-n065-07,65,30.0816400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",27.9856800000,30081.64
+angletsp-n065-08,65,30.4076200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",27.7293000000,30407.62
+angletsp-n065-09,65,30.8469300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",28.9577000000,30846.93
+angletsp-n065-10,65,32.9218900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",29.1649100000,32921.89
+angletsp-n070-01,70,33.0711200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",30.1651300000,33071.12
+angletsp-n070-02,70,33.4140100000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",30.0439200000,33414.01
+angletsp-n070-03,70,33.0427500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",30.3298900000,33042.75
+angletsp-n070-04,70,32.4660500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",29.2005800000,32466.05
+angletsp-n070-05,70,31.5823600000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",28.7005000000,31582.36
+angletsp-n070-06,70,32.3887900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",29.5513600000,32388.79
+angletsp-n070-07,70,33.7078300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",31.0459900000,33707.83
+angletsp-n070-08,70,32.5323400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",29.1080200000,32532.34
+angletsp-n070-09,70,32.0399800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",29.1745300000,32039.98
+angletsp-n070-10,70,31.9432000000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",29.3126900000,31943.2
+angletsp-n075-01,75,33.8975400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",30.7022700000,33897.54
+angletsp-n075-02,75,33.9935900000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",30.3476800000,33993.59
+angletsp-n075-03,75,33.9885400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",30.7789500000,33988.54
+angletsp-n075-04,75,34.4377800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",30.5729900000,34437.78
+angletsp-n075-05,75,34.8525800000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",31.4631500000,34852.58
+angletsp-n075-06,75,33.4760400000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",31.1850300000,33476.04
+angletsp-n075-07,75,33.1885200000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",30.4905700000,33188.52
+angletsp-n075-08,75,33.6412300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",30.2371900000,33641.23
+angletsp-n075-09,75,34.4551500000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",31.1128500000,34455.15
+angletsp-n075-10,75,33.3430300000,optimal,"exact approach of Aichholzer et al. (2017), reported by Stanek et al. (2019)",30.5465600000,33343.03
+angletsp-n080-01,80,35.1321266790,heuristic,"Stanek et al. (2019): LPP+M^20",31.3969200000,35132.1266790287
+angletsp-n080-02,80,35.7767357115,heuristic,"Stanek et al. (2019): CH_C^L+M^20",31.3274400000,35776.7357114811
+angletsp-n080-03,80,35.0560488720,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",31.7837400000,35056.0488720353
+angletsp-n080-04,80,36.3247920446,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",32.3778500000,36324.7920446464
+angletsp-n080-05,80,37.4743350635,heuristic,"Stanek et al. (2019): LPP^R+M^20",33.8198300000,37474.3350635111
+angletsp-n080-06,80,34.9450541734,heuristic,"Stanek et al. (2019): CH_C^L+M^20",31.9327900000,34945.054173366
+angletsp-n080-07,80,36.8798780593,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",32.7559100000,36879.8780593436
+angletsp-n080-08,80,35.3571849364,heuristic,"Stanek et al. (2019): LPP^R+M^20",31.6172100000,35357.1849364466
+angletsp-n080-09,80,35.0401211059,heuristic,"Stanek et al. (2019): CIF+M^15",31.9260800000,35040.121105929
+angletsp-n080-10,80,35.2071784211,heuristic,"Stanek et al. (2019): NN_S+M^20",32.0742100000,35207.1784211301
+angletsp-n085-01,85,36.2347013192,heuristic,"Stanek et al. (2019): NN_S^L+M^20",32.3880200000,36234.7013192085
+angletsp-n085-02,85,37.5972158083,heuristic,"Stanek et al. (2019): LPP^R+M^15",33.5397600000,37597.2158083382
+angletsp-n085-03,85,37.2496485747,heuristic,"Stanek et al. (2019): LPP^R+M^15",32.6979900000,37249.6485747426
+angletsp-n085-04,85,37.9441580292,heuristic,"Stanek et al. (2019): LPP^R+M^15",33.7978400000,37944.1580291949
+angletsp-n085-05,85,37.2255579630,heuristic,"Stanek et al. (2019): LPP^R+M^20",33.5953700000,37225.5579629766
+angletsp-n085-06,85,37.0277267492,heuristic,"Stanek et al. (2019): LPP+M^20",33.6223000000,37027.7267491653
+angletsp-n085-07,85,37.4439297129,heuristic,"Stanek et al. (2019): LPP^R+M^20",33.5592500000,37443.9297128913
+angletsp-n085-08,85,37.7120682859,heuristic,"Stanek et al. (2019): NN_S^L+M^20",32.5661800000,37712.0682858716
+angletsp-n085-09,85,38.2780333344,heuristic,"Stanek et al. (2019): NN_S^L+M^15",33.7231800000,38278.0333344344
+angletsp-n085-10,85,37.6174106916,heuristic,"Stanek et al. (2019): LPP+M^15",33.8835300000,37617.4106916237
+angletsp-n090-01,90,39.3075821416,heuristic,"Stanek et al. (2019): LPP+M^20",34.5900400000,39307.5821416373
+angletsp-n090-02,90,41.1162140758,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",35.7709700000,41116.214075754
+angletsp-n090-03,90,38.4012213812,heuristic,"Stanek et al. (2019): CH_C^L+M^20",34.3219500000,38401.2213812012
+angletsp-n090-04,90,37.7272910606,heuristic,"Stanek et al. (2019): CH_C^L+M^20",33.5914800000,37727.2910605905
+angletsp-n090-05,90,36.7120057328,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",33.5191100000,36712.0057327994
+angletsp-n090-06,90,38.7431957140,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",34.4790200000,38743.1957140499
+angletsp-n090-07,90,38.7480001009,heuristic,"Stanek et al. (2019): LPP^R+M^15",35.2237200000,38748.0001009168
+angletsp-n090-08,90,39.0617525849,heuristic,"Stanek et al. (2019): CH_C^L+M^15",34.7909400000,39061.7525848949
+angletsp-n090-09,90,37.3144133286,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",34.1628400000,37314.4133285763
+angletsp-n090-10,90,39.2120132428,heuristic,"Stanek et al. (2019): CH_C^L+M^20",34.1984300000,39212.0132427605
+angletsp-n095-01,95,38.9917471550,heuristic,"Stanek et al. (2019): LPC_2^R+M^15",35.4363900000,38991.7471549774
+angletsp-n095-02,95,39.4275540190,heuristic,"Stanek et al. (2019): NN_S^L+M^20",35.1543700000,39427.5540189667
+angletsp-n095-03,95,39.5749939125,heuristic,"Stanek et al. (2019): NN_S^L+M^20",36.0720000000,39574.9939125395
+angletsp-n095-04,95,39.9354707029,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",34.8336800000,39935.4707028659
+angletsp-n095-05,95,39.8308606086,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",35.9805100000,39830.8606086398
+angletsp-n095-06,95,39.7770776617,heuristic,"Stanek et al. (2019): LPP^R+M^20",36.0932800000,39777.0776617127
+angletsp-n095-07,95,39.5933254478,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",35.3245400000,39593.3254477734
+angletsp-n095-08,95,39.3398350397,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",35.4033400000,39339.8350397179
+angletsp-n095-09,95,40.1256265080,heuristic,"Stanek et al. (2019): LPP^R+M^15",35.6192600000,40125.6265080278
+angletsp-n095-10,95,39.8235910012,heuristic,"Stanek et al. (2019): NN_S^L+M^20",35.0226200000,39823.5910012334
+angletsp-n100-01,100,43.9246290892,heuristic,"Stanek et al. (2019): LPP^R+M^15",37.0404000000,43924.6290892322
+angletsp-n100-02,100,39.2612450325,heuristic,"Stanek et al. (2019): LPP^R+M^20",35.0152800000,39261.2450324795
+angletsp-n100-03,100,41.8208141916,heuristic,"Stanek et al. (2019): LPP+M^20",36.7564600000,41820.8141916112
+angletsp-n100-04,100,40.9031183130,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",37.3675500000,40903.1183129948
+angletsp-n100-05,100,42.7493652290,heuristic,"Stanek et al. (2019): LPP+M^20",37.9394900000,42749.3652290088
+angletsp-n100-06,100,43.7627072483,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",37.6166000000,43762.7072483462
+angletsp-n100-07,100,41.1859424222,heuristic,"Stanek et al. (2019): NN_S^L+M^20",36.4276900000,41185.9424221633
+angletsp-n100-08,100,40.7489573867,heuristic,"Stanek et al. (2019): LPP^R+M^15",36.1997100000,40748.9573867215
+angletsp-n100-09,100,41.0697369813,heuristic,"Stanek et al. (2019): LPP^R+M^15",36.8345000000,41069.7369812722
+angletsp-n100-10,100,40.6841241694,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",36.5730600000,40684.1241694464
+angletsp-n105-01,105,42.4380724160,heuristic,"Stanek et al. (2019): LPP^R+M^15",36.7283900000,42438.0724159884
+angletsp-n105-02,105,43.9525973546,heuristic,"Stanek et al. (2019): LPP^R+M^20",38.3251100000,43952.597354629
+angletsp-n105-03,105,43.1558673761,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",37.3717900000,43155.8673761131
+angletsp-n105-04,105,43.2849056567,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",38.1261900000,43284.9056566566
+angletsp-n105-05,105,44.1287672525,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",37.9831100000,44128.7672525236
+angletsp-n105-06,105,42.2142476084,heuristic,"Stanek et al. (2019): LPP^R+M^20",37.9072700000,42214.2476084235
+angletsp-n105-07,105,43.1960098767,heuristic,"Stanek et al. (2019): NN_S^L+M^20",37.4826900000,43196.0098767447
+angletsp-n105-08,105,42.9852314593,heuristic,"Stanek et al. (2019): NN_S^L+M^20",37.2712500000,42985.2314593305
+angletsp-n105-09,105,44.4149468356,heuristic,"Stanek et al. (2019): LPP^R+M^20",38.5890100000,44414.9468356003
+angletsp-n105-10,105,44.0563746651,heuristic,"Stanek et al. (2019): LPP^R+M^20",38.3000700000,44056.3746651327
+angletsp-n110-01,110,44.6583996284,heuristic,"Stanek et al. (2019): LPP^R+M^15",39.3994200000,44658.3996284189
+angletsp-n110-02,110,45.4395615560,heuristic,"Stanek et al. (2019): LPP+M^20",40.3684700000,45439.5615560363
+angletsp-n110-03,110,44.1983881018,heuristic,"Stanek et al. (2019): LPP^R+M^20",39.0205200000,44198.3881017709
+angletsp-n110-04,110,43.2427786279,heuristic,"Stanek et al. (2019): LPP^R+M^15",38.7501300000,43242.7786279062
+angletsp-n110-05,110,43.4939830657,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",38.0190300000,43493.98306567
+angletsp-n110-06,110,43.4181493378,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",39.0675300000,43418.1493377696
+angletsp-n110-07,110,45.1700396722,heuristic,"Stanek et al. (2019): LPP+M^20",39.5685300000,45170.039672232
+angletsp-n110-08,110,44.6829374840,heuristic,"Stanek et al. (2019): LPP^R+M^20",39.2492400000,44682.9374839665
+angletsp-n110-09,110,43.8619475074,heuristic,"Stanek et al. (2019): LPP^R+M^20",38.6915700000,43861.947507366
+angletsp-n110-10,110,43.9670228410,heuristic,"Stanek et al. (2019): LPP^R+M^20",38.7707600000,43967.0228410166
+angletsp-n115-01,115,45.8537983838,heuristic,"Stanek et al. (2019): LPP+M^15",40.5429400000,45853.7983837825
+angletsp-n115-02,115,46.3899871978,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",40.9368800000,46389.9871978454
+angletsp-n115-03,115,46.4792725205,heuristic,"Stanek et al. (2019): NN_S^L+M^20",40.3711200000,46479.2725205396
+angletsp-n115-04,115,44.3433524522,heuristic,"Stanek et al. (2019): LPP^R+M^20",39.0049600000,44343.3524521807
+angletsp-n115-05,115,45.3982047560,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",40.7973000000,45398.2047560172
+angletsp-n115-06,115,46.2203737504,heuristic,"Stanek et al. (2019): LPP^R+M^15",41.0798300000,46220.373750431
+angletsp-n115-07,115,45.0829924749,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",39.3558500000,45082.9924749291
+angletsp-n115-08,115,46.5039640751,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",39.9988600000,46503.9640750757
+angletsp-n115-09,115,45.4861326908,heuristic,"Stanek et al. (2019): LPP+M^20",40.3676300000,45486.1326907572
+angletsp-n115-10,115,43.3642771942,heuristic,"Stanek et al. (2019): CH_C^L+M^15",38.7504200000,43364.2771941917
+angletsp-n120-01,120,48.0892982276,heuristic,"Stanek et al. (2019): LPP+M^20",41.2372300000,48089.2982275999
+angletsp-n120-02,120,45.4537906967,heuristic,"Stanek et al. (2019): LPP^R+M^15",39.9477000000,45453.7906966502
+angletsp-n120-03,120,47.6469322516,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",41.1004300000,47646.932251634
+angletsp-n120-04,120,46.7449790285,heuristic,"Stanek et al. (2019): NN_S^L+M^20",42.1267600000,46744.9790284878
+angletsp-n120-05,120,46.7789372482,heuristic,"Stanek et al. (2019): LPP^R+M^20",42.2517300000,46778.9372481703
+angletsp-n120-06,120,47.4848980500,heuristic,"Stanek et al. (2019): LPP+M^15",41.3672900000,47484.8980500085
+angletsp-n120-07,120,46.0920386164,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",40.1646200000,46092.0386163932
+angletsp-n120-08,120,46.1850018743,heuristic,"Stanek et al. (2019): CH_C^L+M^20",40.6333200000,46185.001874266
+angletsp-n120-09,120,47.5557936323,heuristic,"Stanek et al. (2019): LPP^R+M^20",41.6300100000,47555.7936322545
+angletsp-n120-10,120,44.4471184336,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",40.3157100000,44447.118433635
+angletsp-n125-01,125,46.6898174072,heuristic,"Stanek et al. (2019): LPP^R+M^20",41.3031900000,46689.8174072326
+angletsp-n125-02,125,48.7139556842,heuristic,"Stanek et al. (2019): NN_S^L+M^20",41.8812800000,48713.9556841677
+angletsp-n125-03,125,46.8702303341,heuristic,"Stanek et al. (2019): CH_C^L+M^20",41.2387200000,46870.2303341005
+angletsp-n125-04,125,46.6896110540,heuristic,"Stanek et al. (2019): LPP^R+M^20",41.4972500000,46689.611054005
+angletsp-n125-05,125,46.9868219644,heuristic,"Stanek et al. (2019): LPP^R+M^20",40.9198900000,46986.8219644308
+angletsp-n125-06,125,47.3623585982,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",42.6610600000,47362.358598164
+angletsp-n125-07,125,46.3352321330,heuristic,"Stanek et al. (2019): LPP+M^20",40.6245800000,46335.2321329992
+angletsp-n125-08,125,47.3253007924,heuristic,"Stanek et al. (2019): CH_C^L+M^15",41.4394200000,47325.3007924254
+angletsp-n125-09,125,46.5149913982,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",41.4387200000,46514.9913981627
+angletsp-n125-10,125,48.7843874439,heuristic,"Stanek et al. (2019): LPP^R+M^15",42.0315600000,48784.3874438995
+angletsp-n130-01,130,50.4070805852,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",44.8752800000,50407.0805852156
+angletsp-n130-02,130,49.3270649948,heuristic,"Stanek et al. (2019): LPP^R+M^20",43.6709800000,49327.0649948234
+angletsp-n130-03,130,50.2687934553,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",43.5879900000,50268.7934553229
+angletsp-n130-04,130,48.9450991102,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",43.2288300000,48945.099110155
+angletsp-n130-05,130,48.9822183604,heuristic,"Stanek et al. (2019): LPP+M^20",42.8885000000,48982.2183604333
+angletsp-n130-06,130,50.8115321120,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",44.7388600000,50811.5321120348
+angletsp-n130-07,130,48.0755112338,heuristic,"Stanek et al. (2019): LPP^R+M^20",43.5941200000,48075.5112337991
+angletsp-n130-08,130,48.5951639520,heuristic,"Stanek et al. (2019): LPP^R+M^20",42.2603900000,48595.163952044
+angletsp-n130-09,130,47.4343910559,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",41.6325600000,47434.3910559411
+angletsp-n130-10,130,47.8196071745,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",42.8346500000,47819.6071744902
+angletsp-n135-01,135,49.3020960500,heuristic,"Stanek et al. (2019): LPP+M^20",43.3805600000,49302.0960499733
+angletsp-n135-02,135,53.4652246563,heuristic,"Stanek et al. (2019): CH_C^L+M^20",45.9054600000,53465.2246562967
+angletsp-n135-03,135,50.1305605435,heuristic,"Stanek et al. (2019): LPP^R+M^20",44.1955800000,50130.5605435019
+angletsp-n135-04,135,50.2168797031,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",43.9950000000,50216.8797031168
+angletsp-n135-05,135,50.8028226603,heuristic,"Stanek et al. (2019): LPP^R+M^20",44.1204800000,50802.8226603253
+angletsp-n135-06,135,51.2589280935,heuristic,"Stanek et al. (2019): LPP^R+M^20",44.7315900000,51258.9280934539
+angletsp-n135-07,135,51.2594490573,heuristic,"Stanek et al. (2019): LPP^R+M^20",45.6174300000,51259.4490572535
+angletsp-n135-08,135,52.2659422824,heuristic,"Stanek et al. (2019): LPP^R+M^20",44.2750300000,52265.9422823918
+angletsp-n135-09,135,50.2209161185,heuristic,"Stanek et al. (2019): LPP^R+M^20",44.3289300000,50220.9161184707
+angletsp-n135-10,135,49.7997127327,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",43.8493900000,49799.7127327288
+angletsp-n140-01,140,52.5971867502,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",45.9144600000,52597.1867502265
+angletsp-n140-02,140,52.3703584316,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",45.5383800000,52370.3584316335
+angletsp-n140-03,140,50.7690058111,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",44.6099600000,50769.0058111486
+angletsp-n140-04,140,51.3171304907,heuristic,"Stanek et al. (2019): LPP^R+M^15",45.5821300000,51317.130490676
+angletsp-n140-05,140,51.8361852652,heuristic,"Stanek et al. (2019): LPP^R+M^20",46.0914600000,51836.1852652232
+angletsp-n140-06,140,50.6567655388,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",44.5402400000,50656.7655388148
+angletsp-n140-07,140,50.1825238551,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",44.3088300000,50182.5238550855
+angletsp-n140-08,140,53.2606641627,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",46.3347600000,53260.6641627374
+angletsp-n140-09,140,52.5497072894,heuristic,"Stanek et al. (2019): CH_C^L+M^20",45.7051300000,52549.7072894473
+angletsp-n140-10,140,52.6171417391,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",45.9304600000,52617.1417391149
+angletsp-n145-01,145,51.0889860141,heuristic,"Stanek et al. (2019): LPP+M^20",44.9578900000,51088.9860141158
+angletsp-n145-02,145,51.5910942042,heuristic,"Stanek et al. (2019): LPP^R+M^15",45.3996600000,51591.0942041669
+angletsp-n145-03,145,52.4695060593,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",45.8194500000,52469.5060593065
+angletsp-n145-04,145,52.9657233451,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",46.7906800000,52965.7233451175
+angletsp-n145-05,145,52.8351644932,heuristic,"Stanek et al. (2019): NN_S^L+M^20",46.3802700000,52835.1644932074
+angletsp-n145-06,145,52.0120128663,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",45.8775500000,52012.0128662962
+angletsp-n145-07,145,53.4715071636,heuristic,"Stanek et al. (2019): LPP^R+M^15",46.5904300000,53471.5071636431
+angletsp-n145-08,145,53.1769215192,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",46.1511800000,53176.921519218
+angletsp-n145-09,145,53.8313568071,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",46.9008600000,53831.3568071001
+angletsp-n145-10,145,53.7121869351,heuristic,"Stanek et al. (2019): LPP^R+M^20",47.0333600000,53712.1869351063
+angletsp-n150-01,150,53.8435711487,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",46.8091100000,53843.5711486692
+angletsp-n150-02,150,55.4816098747,heuristic,"Stanek et al. (2019): LPP^R+M^15",48.0585500000,55481.6098746839
+angletsp-n150-03,150,55.1438782927,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",47.5600800000,55143.8782926984
+angletsp-n150-04,150,52.8016403041,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",46.9311100000,52801.6403040905
+angletsp-n150-05,150,54.1017237385,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",46.9470200000,54101.7237385046
+angletsp-n150-06,150,54.5836218856,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",47.4837000000,54583.6218855724
+angletsp-n150-07,150,55.0321042106,heuristic,"Stanek et al. (2019): NN_S^L+M^20",47.8761800000,55032.1042105773
+angletsp-n150-08,150,54.6343824306,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",48.7233000000,54634.3824306483
+angletsp-n150-09,150,57.1500876869,heuristic,"Stanek et al. (2019): LPP^R+M^20",49.0068600000,57150.0876869028
+angletsp-n150-10,150,54.5083443244,heuristic,"Stanek et al. (2019): LPP+M^15",47.9985500000,54508.3443243878
+angletsp-n155-01,155,55.9302100491,heuristic,"Stanek et al. (2019): LPP+M^20",48.1295000000,55930.2100491408
+angletsp-n155-02,155,55.8516364642,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",47.8510100000,55851.6364641839
+angletsp-n155-03,155,54.7216133765,heuristic,"Stanek et al. (2019): LPP^R+M^15",47.8455100000,54721.6133764669
+angletsp-n155-04,155,54.9059689056,heuristic,"Stanek et al. (2019): LPP^R+M^20",47.8432300000,54905.9689056191
+angletsp-n155-05,155,54.5869546084,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",47.3712500000,54586.9546083751
+angletsp-n155-06,155,56.0957974240,heuristic,"Stanek et al. (2019): LPP^R+M^20",48.2832000000,56095.7974240122
+angletsp-n155-07,155,56.4465527012,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",48.3379400000,56446.5527011584
+angletsp-n155-08,155,55.3211638099,heuristic,"Stanek et al. (2019): LPP^R+M^15",49.2069300000,55321.1638098602
+angletsp-n155-09,155,53.6754694528,heuristic,"Stanek et al. (2019): LPP^R+M^20",47.6227200000,53675.4694527977
+angletsp-n155-10,155,53.8000097390,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",47.0961100000,53800.0097390319
+angletsp-n160-01,160,57.2934577629,heuristic,"Stanek et al. (2019): LPP^R+M^20",49.3258000000,57293.4577628777
+angletsp-n160-02,160,56.7300358174,heuristic,"Stanek et al. (2019): LPP^R+M^15",49.1437900000,56730.0358174212
+angletsp-n160-03,160,56.0777165379,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",48.6967200000,56077.7165379481
+angletsp-n160-04,160,55.4716997972,heuristic,"Stanek et al. (2019): NN_S^L+M^20",48.3798900000,55471.6997971828
+angletsp-n160-05,160,57.2704347567,heuristic,"Stanek et al. (2019): LPP^R+M^20",49.2835000000,57270.4347566782
+angletsp-n160-06,160,55.9555255569,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",49.3800700000,55955.5255568767
+angletsp-n160-07,160,56.9126813720,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",49.6491800000,56912.6813720331
+angletsp-n160-08,160,57.8635980781,heuristic,"Stanek et al. (2019): LPP^R+M^20",50.2482800000,57863.5980781428
+angletsp-n160-09,160,56.3853157370,heuristic,"Stanek et al. (2019): LPP^R+M^20",48.8423300000,56385.3157369887
+angletsp-n160-10,160,56.9934436617,heuristic,"Stanek et al. (2019): LPP^R+M^20",49.4135900000,56993.4436616743
+angletsp-n165-01,165,56.6040843084,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",49.6104900000,56604.0843084386
+angletsp-n165-02,165,56.9609548843,heuristic,"Stanek et al. (2019): LPP^R+M^20",48.9621800000,56960.9548842541
+angletsp-n165-03,165,56.3472343870,heuristic,"Stanek et al. (2019): LPC_2^R+M^15",49.4200900000,56347.2343869713
+angletsp-n165-04,165,60.9586520016,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",51.2153300000,60958.6520015591
+angletsp-n165-05,165,57.1078078762,heuristic,"Stanek et al. (2019): LPP^R+M^15",49.7326800000,57107.8078761823
+angletsp-n165-06,165,57.9654162514,heuristic,"Stanek et al. (2019): LPP^R+M^20",50.6743300000,57965.4162514094
+angletsp-n165-07,165,57.7007696848,heuristic,"Stanek et al. (2019): LPP^R+M^20",49.4707500000,57700.769684802
+angletsp-n165-08,165,55.4519696513,heuristic,"Stanek et al. (2019): LPP^R+M^20",48.9618100000,55451.9696513359
+angletsp-n165-09,165,57.2193141966,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",50.8121600000,57219.3141965859
+angletsp-n165-10,165,56.6366540113,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",49.6349400000,56636.6540113288
+angletsp-n170-01,170,60.3882098427,heuristic,"Stanek et al. (2019): LPC_1^R+3O",51.1658700000,60388.2098427158
+angletsp-n170-02,170,58.2433878412,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",49.9436100000,58243.3878411522
+angletsp-n170-03,170,58.8979070986,heuristic,"Stanek et al. (2019): LPP^R+M^20",51.1756300000,58897.9070986015
+angletsp-n170-04,170,58.5042124940,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",50.8629900000,58504.2124940391
+angletsp-n170-05,170,60.7769518550,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",52.6544800000,60776.951854958
+angletsp-n170-06,170,58.3553841527,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",51.1838800000,58355.3841526674
+angletsp-n170-07,170,57.8575911223,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",49.4851900000,57857.5911222712
+angletsp-n170-08,170,60.4035155679,heuristic,"Stanek et al. (2019): LPC_2^R+M^15",51.7316600000,60403.5155679276
+angletsp-n170-09,170,57.1237223208,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",49.9759900000,57123.7223208072
+angletsp-n170-10,170,59.2818266405,heuristic,"Stanek et al. (2019): LPP^R+M^15",50.6453600000,59281.8266405472
+angletsp-n175-01,175,60.2330023248,heuristic,"Stanek et al. (2019): LPP^R+M^20",52.9425200000,60233.0023247674
+angletsp-n175-02,175,59.0170550180,heuristic,"Stanek et al. (2019): LPP^R+M^20",51.1262200000,59017.0550179683
+angletsp-n175-03,175,61.6551402938,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",53.6676900000,61655.1402938405
+angletsp-n175-04,175,60.5767945979,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",51.4987300000,60576.7945979319
+angletsp-n175-05,175,60.1754668976,heuristic,"Stanek et al. (2019): NN_S^L+M^15",51.5726200000,60175.4668975645
+angletsp-n175-06,175,60.6746373504,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",53.0278600000,60674.6373503649
+angletsp-n175-07,175,60.0487204660,heuristic,"Stanek et al. (2019): NN_S^L+M^20",52.1263100000,60048.7204660009
+angletsp-n175-08,175,59.1003227255,heuristic,"Stanek et al. (2019): NN_S^L+M^20",52.3307500000,59100.3227255165
+angletsp-n175-09,175,59.5816722757,heuristic,"Stanek et al. (2019): LPP^R+M^20",52.0436800000,59581.6722757187
+angletsp-n175-10,175,58.9164388595,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",52.1902800000,58916.438859459
+angletsp-n180-01,180,60.4540583337,heuristic,"Stanek et al. (2019): LPP^R+M^20",52.7567200000,60454.0583337206
+angletsp-n180-02,180,59.3145564005,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",52.2535400000,59314.5564005368
+angletsp-n180-03,180,57.6443512122,heuristic,"Stanek et al. (2019): LPP^R+M^20",50.8611900000,57644.3512121984
+angletsp-n180-04,180,61.2477041741,heuristic,"Stanek et al. (2019): LPP^R+M^20",53.3578800000,61247.7041740616
+angletsp-n180-05,180,59.9477465167,heuristic,"Stanek et al. (2019): LPP^R+M^20",51.9435900000,59947.7465167085
+angletsp-n180-06,180,62.2108283822,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",53.4894200000,62210.8283822125
+angletsp-n180-07,180,57.4722441828,heuristic,"Stanek et al. (2019): LPP^R+M^20",50.3496600000,57472.244182795
+angletsp-n180-08,180,61.8922417742,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",54.1639600000,61892.2417742082
+angletsp-n180-09,180,60.4107767648,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",52.1274000000,60410.776764764
+angletsp-n180-10,180,59.4900517949,heuristic,"Stanek et al. (2019): LPC_2^R+M^15",52.1324900000,59490.0517949272
+angletsp-n185-01,185,60.8378585058,heuristic,"Stanek et al. (2019): LPP^R+M^20",53.3320900000,60837.8585058389
+angletsp-n185-02,185,63.5322783063,heuristic,"Stanek et al. (2019): LPP^R+M^20",53.2555300000,63532.2783062677
+angletsp-n185-03,185,61.7982514450,heuristic,"Stanek et al. (2019): LPP^R+M^20",53.4228300000,61798.2514450128
+angletsp-n185-04,185,60.8051444691,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",53.7437100000,60805.1444690712
+angletsp-n185-05,185,62.5701665451,heuristic,"Stanek et al. (2019): LPP^R+M^20",53.7787700000,62570.1665450904
+angletsp-n185-06,185,60.7550576540,heuristic,"Stanek et al. (2019): CH_C^L+M^20",52.5057300000,60755.0576539651
+angletsp-n185-07,185,61.0972027475,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",53.6955600000,61097.2027474792
+angletsp-n185-08,185,62.0875917555,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",52.7975200000,62087.5917555316
+angletsp-n185-09,185,59.4947242034,heuristic,"Stanek et al. (2019): LPP^R+M^20",53.3973700000,59494.7242034072
+angletsp-n185-10,185,61.9089823087,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",54.2180100000,61908.9823087346
+angletsp-n190-01,190,65.1514684128,heuristic,"Stanek et al. (2019): LPP^R+M^20",54.9180300000,65151.4684128279
+angletsp-n190-02,190,65.2393316006,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",54.6196000000,65239.3316005886
+angletsp-n190-03,190,62.0146527264,heuristic,"Stanek et al. (2019): LPP^R+M^20",54.2714300000,62014.6527263667
+angletsp-n190-04,190,60.7853428702,heuristic,"Stanek et al. (2019): LPP^R+M^20",53.1699200000,60785.3428701529
+angletsp-n190-05,190,63.4273407738,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",54.9477100000,63427.3407737595
+angletsp-n190-06,190,60.7606806980,heuristic,"Stanek et al. (2019): LPP^R+M^20",53.7061600000,60760.6806979558
+angletsp-n190-07,190,61.7302137073,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",53.6628100000,61730.2137072504
+angletsp-n190-08,190,60.5283185539,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",53.7138800000,60528.3185538997
+angletsp-n190-09,190,64.0705871355,heuristic,"Stanek et al. (2019): LPP+M^20",54.9284200000,64070.5871355461
+angletsp-n190-10,190,64.0303128324,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",54.2980500000,64030.3128324484
+angletsp-n195-01,195,66.2689001283,heuristic,"Stanek et al. (2019): LPP+M^20",56.6537500000,66268.9001282566
+angletsp-n195-02,195,64.6698500794,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",55.6759900000,64669.8500794285
+angletsp-n195-03,195,66.7569110184,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",55.8159100000,66756.9110184088
+angletsp-n195-04,195,65.0306170393,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",56.5724600000,65030.6170392638
+angletsp-n195-05,195,65.8935010331,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",55.9360600000,65893.5010330603
+angletsp-n195-06,195,64.5460305271,heuristic,"Stanek et al. (2019): LPP^R+M^20",55.8280200000,64546.0305270751
+angletsp-n195-07,195,64.8168613198,heuristic,"Stanek et al. (2019): LPP^R+M^20",55.6223800000,64816.8613198415
+angletsp-n195-08,195,65.7018270880,heuristic,"Stanek et al. (2019): LPP+M^20",56.3113300000,65701.8270880055
+angletsp-n195-09,195,65.8299648317,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",56.7676800000,65829.9648316841
+angletsp-n195-10,195,63.7222802837,heuristic,"Stanek et al. (2019): LPC_2^R+M^15",54.8083600000,63722.2802837441
+angletsp-n200-01,200,63.8815259891,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",55.9624700000,63881.5259891342
+angletsp-n200-02,200,67.3912371228,heuristic,"Stanek et al. (2019): LPP^R+M^20",57.0311400000,67391.2371228229
+angletsp-n200-03,200,65.0977775318,heuristic,"Stanek et al. (2019): LPC_1^R+M^15",54.8179400000,65097.7775317994
+angletsp-n200-04,200,64.1213056309,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",55.9271300000,64121.3056309498
+angletsp-n200-05,200,66.1527638976,heuristic,"Stanek et al. (2019): LPC_2^R+M^20",56.4031600000,66152.7638976315
+angletsp-n200-06,200,65.7646639509,heuristic,"Stanek et al. (2019): LPC_2^R+M^15",56.0223200000,65764.6639509236
+angletsp-n200-07,200,65.0617803871,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",56.7227200000,65061.7803871371
+angletsp-n200-08,200,66.2550721407,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",57.2506300000,66255.0721407408
+angletsp-n200-09,200,66.8784281517,heuristic,"Stanek et al. (2019): LPC_1^R+M^20",56.3599500000,66878.4281517163
+angletsp-n200-10,200,64.8698259669,heuristic,"Stanek et al. (2019): LPC_2^R+M^15",55.8912700000,64869.8259668546
