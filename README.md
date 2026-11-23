@@ -1,23 +1,24 @@
-# The angular-metric close enough traveling salesman problem
+# Block coordinate descent and adaptive large neighborhood search for the angular-metric close enough traveling salesman problem
 
-Code, instances and results of the paper
+This repository contains the code, the instances and the results that support the paper
 
-> E. G. Birgin, L. C. Coelho and P. C. R. Ertel. *The angular-metric close enough traveling salesman problem: an adaptive large neighborhood search enhanced with block coordinate descent.* Submitted, 2026.
-
-In the angular-metric close enough traveling salesman problem (Angle-CETSP), a closed route must pass through every disk of a given set in the plane, and its cost is the sum of its turning angles. The paper proposes the ALNS-BCD, an adaptive large neighborhood search in which the visit points of each visiting sequence are computed by a block coordinate descent (BCD) method whose single-disk subproblem is solved in closed form.
+> E. G. Birgin, L. C. Coelho and P. C. R. Ertel. *Block coordinate descent and adaptive large neighborhood search for the angular-metric close enough traveling salesman problem.* Submitted, 2026.
 
 ## Contents
 
 ```
-code/alns/              the ALNS-BCD (Fortran 90 and C++17)
-code/block-rules/       comparison of the block selection rules of the BCD (Section 5.1)
-instances/              the 400 instances derived from the Angle-TSP instances (Section 5.2)
-results/                results of every run reported in the paper
+code/alns/               the ALNS-BCD (Fortran 90)
+code/block-rules/        comparison of the block selection rules of the BCD (Section 5.1)
+code/subproblem-timing/  time of one closed-form block update (Section 5.1)
+instances/               the 400 instances derived from the Angle-TSP instances (Section 5.2)
+results/                 results of every run reported in the paper
+solutions/               the best solution found by the ALNS-BCD for each of the 1,582 instances
+scripts/                 feasibility check of solution files
 ```
 
 ## Building and running the ALNS-BCD
 
-Requirements: `g++` with C++17, `gfortran` and Python 3 (tested with GCC 12.3 and 13.3 on Ubuntu).
+Requirements: `gfortran` and Python 3 (tested with GCC 12.3 and 13.3 on Ubuntu).
 
 ```bash
 cd code/alns
@@ -27,9 +28,9 @@ python3 run_alns.py ../../instances/angle-tsp-radii/angletsp-n050-01.txt 123456
 
 `run_alns.py` runs the configuration of the paper (Section 5.3): N = 200,000 iterations, a time limit of one hour, and the parameters of the paper. Its docstring describes the output: a log with the cost of each new best solution and the statistics of the operators, and a file with the best solution (route and visit points). The ALNS-BCD is deterministic for a given seed. The five seeds used for all instances are 123456, 42, 34567, 99 and 2026, and the 400 Angle-TSP instances were also solved with the seeds 7, 2718, 31415, 1618 and 8128.
 
-`bash build.sh --sleef` builds a faster version, in which the `atan2` of the closed-form block update is computed by the SLEEF library (it requires `libsleef`). Its results agree with those of the default build up to rounding, but they are not bit-identical, so a run may follow a different trajectory. The runs of the paper used the default build.
-
 Instance file format: the number m of disks in the first line, followed by one line `x y r` per disk. A depot is a disk of radius zero. The program translates and scales each instance so that its centers fit in the unit square, which does not change the cost of any route, and writes the solutions in the original coordinates.
+
+The experiments of the paper were run on four identical computers with an Intel Core i9-14900K processor, 62 GB of RAM, Ubuntu 24.04.5 LTS and gfortran 13.3.0. Each run of the ALNS-BCD used a single thread on its own performance core, with at most eight runs in parallel on each computer.
 
 ## Instances
 
@@ -50,7 +51,8 @@ All costs are total turning angles in radians, and all times are CPU times in se
 | `results/alns-bcd-disks.csv` | one row per run of the ALNS-BCD on the 1,182 instances with disks, 5 seeds (5,910 rows) |
 | `results/angle-tsp-bks.csv` | best known solution (BKS) of each Angle-TSP instance |
 | `results/gts-comparison-by-size.csv` | the comparison with the granular tabu search of Cavagnini et al. (2024), for each of the 40 sizes |
-| `results/hexaly-disks.csv` | one row per Hexaly run on the 1,182 instances with disks |
+| `results/gurobi-disks.csv` | one row per instance with disks: the model of Section 2 of the paper solved by Gurobi |
+| `results/component-analysis.csv` | the component analysis of Section 5.5 (one row per run) |
 | `results/block-rules/radii-x1.csv`, `-x4.csv`, `-x10.csv` | the comparison of the block selection rules of Section 5.1 |
 
 ### `alns-bcd-angle-tsp.csv` and `alns-bcd-disks.csv`
@@ -64,13 +66,13 @@ All costs are total turning angles in radians, and all times are CPU times in se
 | `time_limit_reached` | 1 if the run was stopped by the time limit of one hour |
 | `construction_time_s` | time of reading, preprocessing and building the initial solution |
 | `search_time_s` | time of the search, including the final BCD |
-| `total_time_s` | `construction_time_s + search_time_s`; for runs stopped by the time limit, the wall time |
+| `total_time_s` | CPU time of the whole run, `construction_time_s + search_time_s`; for runs stopped by the time limit, the wall time |
 | `last_improvement_iteration`, `last_improvement_time_s` | iteration and search time of the last new best solution |
 | `improvements` | number of new best solutions |
 | `max_iterations_without_improvement` | longest stretch of iterations without a new best solution |
 | `<operator>_calls`, `<operator>_new_best` | number of calls of each operator and number of new best solutions it produced |
 
-The operators are the removal operators `worst_angles`, `random`, `cluster`, `random_string`, `bad_string`, `good_string`, `worst_sum_string`, `savings`, `sisr_random_split`, `sisr_spatial` and `lens`, and the insertion operators `greedy`, `regret2`, `regret3` and `sisr_greedy_blinks` (Section 4 of the paper). The 33 runs stopped by the time limit, all on instances of Mennell (2009) with 400 to 1,001 disks, have no final statistics: `final_cost` is the last new best solution and the operator columns are empty.
+The operators are the removal operators `worst_angles`, `random`, `cluster`, `random_string`, `bad_string`, `good_string`, `worst_sum_string`, `savings`, `sisr_random_split`, `sisr_spatial` and `lens`, and the insertion operators `greedy`, `regret2`, `regret3` and `sisr_greedy_blinks` (Section 4 of the paper). The 19 runs stopped by the time limit, all on four instances of Mennell (2009) with 1,000 or 1,001 disks, have no final statistics: `final_cost` is the last new best solution, the operator columns are empty, and `construction_time_s` is given only when another run of the same instance finished (the construction does not depend on the seed).
 
 ### `angle-tsp-bks.csv`
 
@@ -78,20 +80,30 @@ The operators are the removal operators `worst_angles`, `random`, `cluster`, `ra
 
 ### `gts-comparison-by-size.csv`
 
-For each size m, the mean gaps to the BKS (in percent) of the best of ten runs and of the mean value of ten runs, and the mean time of a run, for the granular tabu search GTS-angular r-LENS, as reported by Cavagnini et al. (2024), and for the ALNS-BCD.
+For each size m, the mean gaps to the BKS (in percent) of the best of ten runs and of the mean value of ten runs, and the mean time of a run, for the granular tabu search GTS-angular r-LENS, as reported by Cavagnini et al. (2024), and for the ALNS-BCD (Table 3 of the paper). The last two columns give the same gaps for the ALNS-BCD when each run is stopped at the mean running time of the tabu search for the same size divided by 3.3, the comparison at about the same running time of Section 5.4. They are computed from the improvement history of the runs (the log of each run lists every new best solution with its search time).
 
-### `hexaly-disks.csv`
+### `gurobi-disks.csv`
 
-`total_turning_angle` is the cost of the route returned by Hexaly 14.5, recomputed with the cost of the paper, and is the value used in the comparisons. `reported_objective` is the value reported by Hexaly, `hexaly_status` its final status, `stopped_by_stagnation` is 1 when the run stopped after ten minutes without improvement, and `max_violation` is the largest distance of a visit point to its disk, in the coordinates of the instance file.
+The mixed-integer nonlinear model of Section 2 of the paper, solved by Gurobi Optimizer 14.0.0 with five threads, a time limit of one hour and the default relative gap tolerance of 1e-4, starting from the initial solution of the ALNS-BCD given as a MIP start. `gurobi_status` is `optimal` or `time_limit`, `initial_cost` is the cost of the MIP start, `upper_bound` is the cost of the best route of Gurobi recomputed with the cost of the paper (the value used in the comparisons), `reported_objective` is the objective value reported by Gurobi, `lower_bound` is its final lower bound, `max_violation` is the largest distance of a visit point to its disk, in the coordinates of the instance file, and `total_time_s` is the wall time of the run.
+
+### `component-analysis.csv`
+
+The component analysis of Section 5.5, on 25 Angle-TSP instances, 25 instances with radii and 26 instances of Mennell (2009), with the five seeds: `variant` is `full` (the ALNS-BCD of the paper), `no_<operator>` (the operator removed), `no_regret2_regret3` (both regret operators removed) or `no_adaptive_weights` (all weights kept equal). These runs measure only solution quality. They were made with an earlier build of the same algorithm, in which the closed-form block update was written in C++, on a different computer.
 
 ### `block-rules/radii-x*.csv`
 
-For each random instance of Section 5.1 (`code/block-rules/instances/`), the cost of the solution (`psi_*`), the number of block updates (`updates_*`), the number of cycles (`cycles_*`) and the running time (`time_*_s`) of the cyclic rule and of the queue. To reproduce them:
+For each random instance of Section 5.1 (`code/block-rules/instances/`), the cost of the solution (`psi_*`), the number of block updates (`updates_*`), the number of cycles (`cycles_*`) and the running time (`time_*_s`) of the cyclic rule and of the queue. To reproduce them, and the time of one block update:
 
 ```bash
 cd code/block-rules
 bash run.sh
+cd ../subproblem-timing
+bash run.sh
 ```
+
+## Solutions
+
+`solutions/<set>/<instance>.txt` is the best solution found by the ALNS-BCD for each instance, over the runs of `results/`. The first line gives the name of the instance, the seed of the run, a label, the total turning angle, the number of iterations, and the search time at which the solution was found; the second line gives m; the next m lines give `i x y`, in the order of the route, with the index i of the disk (1 to m, in the order of the instance file) and its visit point (x, y). `scripts/feasibility.py` checks that a solution visits every disk once at a point of the disk and recomputes its cost.
 
 ## References
 

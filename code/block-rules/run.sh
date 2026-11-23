@@ -7,8 +7,8 @@ cd "$(dirname "$0")"
 T=$(mktemp -d)
 cp ../alns/src/* bcd_compare.f90 "$T"/
 ( cd "$T"
-  g++ -O3 -march=native -std=c++17 -fno-math-errno -c chain_c_api.cpp -o chain_c_api.o
-  gfortran -O3 instance.f90 blockcoordinatedescent.f90 bcd_compare.f90 chain_c_api.o -lstdc++ -o bcd_compare )
+  gfortran -O3 -march=native -c max_angle_chain.f90
+  gfortran -O3 instance.f90 blockcoordinatedescent.f90 bcd_compare.f90 max_angle_chain.o -o bcd_compare )
 cp "$T"/bcd_compare .
 rm -rf "$T"
 python3 run_bcd.py

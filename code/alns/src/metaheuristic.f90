@@ -1395,7 +1395,7 @@ module metaheuristic
 
         removed_cities = 0
 
-        ! 1. aresta k -> k+1 (posicoes), ordenada por comprimento decrescente
+        ! 1. edges k -> k+1 (positions), sorted by decreasing length
         do k = 1, npts
             comp(k) = norm2( x(1:2,tour(nextind(k,1,npts))) - x(1:2,tour(k)) )
             ord(k) = k
