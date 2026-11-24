@@ -2,7 +2,7 @@
 """run_alns.py -- runs the ALNS-BCD on one instance with the configuration used in the paper.
 
 Usage:  python3 run_alns.py INSTANCE_FILE SEED [--iterations N] [--time-limit SECONDS] [--outdir DIR]
-Example: python3 run_alns.py ../../instances/angle-tsp-radii/angletsp-n050-01.txt 123456
+Example: python3 run_alns.py ../../instances/angle-tsp-disk/angletsp-n050-01.txt 123456
 
 Instance file: the number m of disks in the first line, followed by one line "x y r" per disk (a depot,
 if any, is a disk of radius zero).

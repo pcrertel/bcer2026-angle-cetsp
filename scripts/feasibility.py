@@ -6,7 +6,7 @@ Usage:
   python3 feasibility.py --dirs INSTANCE_DIR SOLUTION_DIR   every solution of SOLUTION_DIR, each checked against
                                                             the instance file with the same name in INSTANCE_DIR
 Example, from the root of the repository:
-  python3 scripts/feasibility.py --dirs instances/angle-tsp-radii solutions/angle-tsp-radii > report.csv
+  python3 scripts/feasibility.py --dirs instances/angle-tsp-disk solutions/angle-tsp-disk > report.csv
 
 Instance file: first line m; then m lines "x y r" (a depot, if any, has r = 0).
 Solution file: first line "name seed label cost ..."; second line m; then m lines "i x y", in the order of the

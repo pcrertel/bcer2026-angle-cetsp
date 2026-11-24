@@ -10,7 +10,7 @@ This repository contains the code, the instances and the results that support th
 code/alns/               the ALNS-BCD (Fortran 90)
 code/block-rules/        comparison of the block selection rules of the BCD (Section 5.1)
 code/subproblem-timing/  time of one closed-form block update (Section 5.1)
-instances/               the 400 instances derived from the Angle-TSP instances (Section 5.2)
+instances/               the 400 Angle-TSP-disk instances, derived from the Angle-TSP instances (Section 5.2)
 results/                 results of every run reported in the paper
 solutions/               the best solution found by the ALNS-BCD for each of the 1,582 instances
 scripts/                 feasibility check of solution files
@@ -23,7 +23,7 @@ Requirements: `gfortran` and Python 3 (tested with GCC 12.3 and 13.3 on Ubuntu).
 ```bash
 cd code/alns
 bash build.sh
-python3 run_alns.py ../../instances/angle-tsp-radii/angletsp-n050-01.txt 123456
+python3 run_alns.py ../../instances/angle-tsp-disk/angletsp-n050-01.txt 123456
 ```
 
 `run_alns.py` runs the configuration of the paper (Section 5.3): N = 200,000 iterations, a time limit of one hour, and the parameters of the paper. Its docstring describes the output: a log with the cost of each new best solution and the statistics of the operators, and a file with the best solution (route and visit points). The ALNS-BCD is deterministic for a given seed. The five seeds used for all instances are 123456, 42, 34567, 99 and 2026, and the 400 Angle-TSP instances were also solved with the seeds 7, 2718, 31415, 1618 and 8128.
@@ -34,7 +34,7 @@ The experiments of the paper were run on four identical computers with an Intel 
 
 ## Instances
 
-`instances/angle-tsp-radii/` contains the 400 instances built in Section 5.2 from the Angle-TSP instances of Staněk et al. (2019): each point c_i becomes the center of a disk of radius r_i = 0.45 min_{j≠i} ||c_i − c_j||. The instance `angletsp-nNNN-KK` is the point set KK (01 to 10) with NNN points of Staněk et al. (2019).
+`instances/angle-tsp-disk/` contains the 400 Angle-TSP-disk instances, built in Section 5.2 from the Angle-TSP instances of Staněk et al. (2019): each point c_i becomes the center of a disk of radius r_i = 0.45 min_{j≠i} ||c_i − c_j||. The instance `angletsp-nNNN-KK` is the point set KK (01 to 10) with NNN points of Staněk et al. (2019).
 
 The other instances of the paper are available in the literature:
 
@@ -59,7 +59,7 @@ All costs are total turning angles in radians, and all times are CPU times in se
 
 | column | meaning |
 |---|---|
-| `set` | `angle-tsp`, `angle-tsp-radii`, `behdani-r0.25`, `behdani-r0.50`, `behdani-r1.00` or `mennell` |
+| `set` | `angle-tsp`, `angle-tsp-disk`, `behdani-r0.25`, `behdani-r0.50`, `behdani-r1.00` or `mennell` |
 | `instance`, `m`, `seed` | instance, number of disks (depot included) and seed |
 | `iterations` | N = 200,000 |
 | `initial_cost`, `final_cost` | cost of the initial solution and of the best solution of the run |
@@ -88,7 +88,7 @@ The mixed-integer nonlinear model of Section 2 of the paper, solved by Gurobi Op
 
 ### `component-analysis.csv`
 
-The component analysis of Section 5.5, on 25 Angle-TSP instances, 25 instances with radii and 26 instances of Mennell (2009), with the five seeds: `variant` is `full` (the ALNS-BCD of the paper), `no_<operator>` (the operator removed), `no_regret2_regret3` (both regret operators removed) or `no_adaptive_weights` (all weights kept equal). These runs measure only solution quality. They were made with an earlier build of the same algorithm, in which the closed-form block update was written in C++, on a different computer.
+The component analysis of Section 5.5, on 25 Angle-TSP instances, 25 Angle-TSP-disk instances and 26 instances of Mennell (2009), with the five seeds: `variant` is `full` (the ALNS-BCD of the paper), `no_<operator>` (the operator removed), `no_regret2_regret3` (both regret operators removed) or `no_adaptive_weights` (all weights kept equal). These runs measure only solution quality. They were made with an earlier build of the same algorithm, in which the closed-form block update was written in C++, on a different computer.
 
 ### `block-rules/radii-x*.csv`
 
